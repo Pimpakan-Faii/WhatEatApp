@@ -7,18 +7,94 @@
     android:background="@drawable/bg"
     tools:context=".Restaurants">
 
-    <ImageButton
-        android:id="@+id/ran"
-        android:layout_width="350dp"
-        android:layout_height="150dp"
-        android:layout_centerInParent="true"
-        android:background="@drawable/bt1"
-        android:onClick="random"
+    <Button
+        android:id="@+id/button20"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านแอนบะหมี่หน้ามอ"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.132"
-        tools:ignore="MissingConstraints" />
+        app:layout_constraintVertical_bias="0.207" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านป๊า ม๊าอาหารตามสั่ง"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/button2"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านอาหารบ้านคุณลุง"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/button3"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านอาหารแม่ดอล่า"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <Button
+        android:id="@+id/button11"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านแอนบะหมี่หน้ามอ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:fontFamily="@font/chonburi"
+        android:textColor="@color/black"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ร้านครัวต้นดอกอ้อ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="79dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

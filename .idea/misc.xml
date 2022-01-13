@@ -3,19 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/drawable/bt.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/drawable/bt1.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/drawable/roundbutton.xml" value="0.26205128205128203" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_details.xml" value="0.1431159420289855" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_fried.xml" value="0.17300724637681159" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_listview.xml" value="0.14945652173913043" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_menufood.xml" value="0.4" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_random.xml" value="0.264" />
-        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_restaurants.xml" value="0.14945652173913043" />
-        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_main.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_main.xml" value="0.14945652173913043" />
+        <entry key="..\:/WhatEat/app/src/main/res/drawable/bt.xml" value="0.23020833333333332" />
+        <entry key="..\:/WhatEat/app/src/main/res/drawable/bt1.xml" value="0.22763157894736843" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_details.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_fried.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_listview.xml" value="0.536" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_main.xml" value="0.23492063492063492" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_menufood.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_random.xml" value="0.21403508771929824" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_restaurants.xml" value="0.21403508771929824" />
       </map>
     </option>
   </component>
