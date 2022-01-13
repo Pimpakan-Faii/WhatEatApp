@@ -7,4 +7,112 @@
     android:background="@drawable/bg"
     tools:context=".fried">
 
+    <ImageButton
+        android:id="@+id/backbtn"
+        android:layout_width="88dp"
+        android:layout_height="49dp"
+        android:background="@drawable/backbtn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.049" />
+
+    <TextView
+        android:id="@+id/frititle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="ประเภททอด"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ข้าวหมูทอดกระเทียม"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.312" />
+
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ข้าวหมูกรอบทอดกระเทียม"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.429" />
+
+    <Button
+        android:id="@+id/b3"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ข้าวไก่ทอดกระเทียม"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.554" />
+
+    <Button
+        android:id="@+id/b4"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ข้าวไข่เจียวหมูสับ"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+    <Button
+        android:id="@+id/b5"
+        android:layout_width="fill_parent"
+        android:layout_height="65dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ข้าวกุ้งทอดกระเทียม"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.801" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
