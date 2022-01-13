@@ -71,17 +71,6 @@
         app:layout_constraintVertical_bias="0.962"
         tools:ignore="MissingConstraints" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="239dp"
-        android:layout_height="156dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.239"
-        tools:srcCompat="@drawable/ann" />
-
 
     <TextView
         android:id="@+id/textView6"
@@ -110,7 +99,7 @@
         app:layout_constraintHorizontal_bias="0.527"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.045" />
+        app:layout_constraintVertical_bias="0.033" />
 
     <TextView
         android:id="@+id/textView4"
@@ -164,4 +153,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.765" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="119dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.242"
+        app:srcCompat="@drawable/annnnn" />
 </androidx.constraintlayout.widget.ConstraintLayout>
