@@ -34,7 +34,7 @@ public class Menufood extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b17 = new Intent(Menufood.this,Restaurants.class);
+                Intent b17 = new Intent(Menufood.this,fried.class);
                 startActivity(b17);
             }
         });
@@ -42,7 +42,7 @@ public class Menufood extends AppCompatActivity {
         b7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b18 = new Intent(Menufood.this,Restaurants.class);
+                Intent b18 = new Intent(Menufood.this,fried.class);
                 startActivity(b18);
             }
         });
@@ -50,35 +50,35 @@ public class Menufood extends AppCompatActivity {
         b8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b19 = new Intent(Menufood.this,Restaurants.class);
+                Intent b19 = new Intent(Menufood.this,fried.class);
                 startActivity(b19);
             }
         });
         b9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b20 = new Intent(Menufood.this,Restaurants.class);
+                Intent b20 = new Intent(Menufood.this,fried.class);
                 startActivity(b20);
             }
         });
         b10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b21 = new Intent(Menufood.this,Restaurants.class);
+                Intent b21 = new Intent(Menufood.this,fried.class);
                 startActivity(b21);
             }
         });
         b11.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b22 = new Intent(Menufood.this,Restaurants.class);
+                Intent b22 = new Intent(Menufood.this,fried.class);
                 startActivity(b22);
             }
         });
         b12.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent b23 = new Intent(Menufood.this,Restaurants.class);
+                Intent b23 = new Intent(Menufood.this,fried.class);
                 startActivity(b23);
             }
         });
