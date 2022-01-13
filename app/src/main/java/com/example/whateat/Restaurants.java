@@ -17,6 +17,7 @@ public class Restaurants extends AppCompatActivity {
 
     Button b1,b2,b3,b4,b5;
 
+    ImageButton backstep;
 
     /*int IMAGES = R.drawable.bt1;
     String[] NAMES = {"ร้านแอนบะหมี่หน้ามอ", "ร้านป๊า ม๊าอาหารตามสั่ง", "ร้านอาหารบ้านคุณลุง", "ร้านอาหารแม่ดอล่า", "ร้านครัวต้นดอกอ้อ", "วีทีแหนมเนือง"};*/
@@ -69,6 +70,16 @@ public class Restaurants extends AppCompatActivity {
             public void onClick(View view) {
                 Intent b16 = new Intent(Restaurants.this,Details.class);
                 startActivity(b16);
+            }
+        });
+
+        backstep = (ImageButton) findViewById(R.id.backbtn);
+
+        backstep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent backst = new Intent(Restaurants.this,fried.class);
+                startActivity(backst);
             }
         });
     }
