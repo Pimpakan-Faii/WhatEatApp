@@ -7,56 +7,94 @@
     android:background="@drawable/bg"
     tools:context=".Restaurants">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+    <Button
+        android:id="@+id/button20"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านแอนบะหมี่หน้ามอ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.207" />
+
+    <Button
+        android:id="@+id/button"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านป๊า ม๊าอาหารตามสั่ง"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.387" />
+
+    <Button
+        android:id="@+id/button2"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านอาหารบ้านคุณลุง"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <Button
+        android:id="@+id/button3"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านอาหารแม่ดอล่า"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.774" />
+
+    <Button
+        android:id="@+id/button11"
+
+        android:layout_width="325dp"
+        android:layout_height="107dp"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/chonburi"
+        android:text="ร้านแอนบะหมี่หน้ามอ"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.977" />
+
+    <TextView
+        android:fontFamily="@font/chonburi"
+        android:textColor="@color/black"
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical" >
-
-        <TextView
-            android:id="@+id/textView2"
-            android:layout_width="382dp"
-            android:layout_height="16dp"
-            android:layout_margin="5dp"
-            android:layout_weight="1"
-            android:text="" />
-
-        <LinearLayout
-            android:layout_width="101dp"
-            android:layout_height="51dp"
-            android:orientation="horizontal">
-
-            <ImageButton
-                android:id="@+id/comefoodtype"
-                android:layout_width="88dp"
-                android:layout_height="49dp"
-                android:background="@drawable/backbtn" />
-        </LinearLayout>
-
-
-        <TextView
-            android:id="@+id/tetx4"
-            android:layout_width="match_parent"
-            android:layout_height="91dp"
-
-            android:layout_weight="1"
-            android:fontFamily="@font/chonburi"
-            android:text="ร้านอาหารที่พบ"
-            android:textAlignment="center"
-            android:textColor="@color/black"
-            android:textSize="35sp" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" >
-
-            <ListView
-                android:id="@+id/list1"
-                android:layout_width="match_parent"
-                android:layout_height="600dp"
-                tools:ignore="MissingConstraints">
-
-            </ListView>
-        </LinearLayout>
-    </LinearLayout>
+        android:text="ร้านครัวต้นดอกอ้อ"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="79dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
