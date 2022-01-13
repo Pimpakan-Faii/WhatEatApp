@@ -5,7 +5,14 @@
       <map>
         <entry key="..\:/Users/ASUS_ROG/AndroidStudioProjects/WhatEatApp/app/src/main/res/layout/activity_main.xml" value="0.14945652173913043" />
         <entry key="..\:/WhatEat/app/src/main/res/drawable/bt.xml" value="0.23020833333333332" />
+        <entry key="..\:/WhatEat/app/src/main/res/drawable/bt1.xml" value="0.22763157894736843" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_details.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_fried.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_listview.xml" value="0.536" />
         <entry key="..\:/WhatEat/app/src/main/res/layout/activity_main.xml" value="0.23492063492063492" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_menufood.xml" value="0.2" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_random.xml" value="0.21403508771929824" />
+        <entry key="..\:/WhatEat/app/src/main/res/layout/activity_restaurants.xml" value="0.21403508771929824" />
       </map>
     </option>
   </component>

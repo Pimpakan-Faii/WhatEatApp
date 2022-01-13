@@ -10,6 +10,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.WhatEat">
         <activity
+            android:name=".listview"
+            android:exported="true" />
+        <activity
+            android:name=".fried"
+            android:exported="true" />
+        <activity
+            android:name=".Details"
+            android:exported="true" />
+        <activity
+            android:name=".Restaurants"
+            android:exported="true" />
+        <activity
+            android:name=".Menufood"
+            android:exported="true" />
+        <activity
+            android:name=".Random"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
