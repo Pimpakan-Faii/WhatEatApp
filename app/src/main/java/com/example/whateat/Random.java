@@ -9,7 +9,7 @@ import android.widget.ImageButton;
 
 public class Random extends AppCompatActivity {
 
-    ImageButton random, nextgoto;
+    ImageButton random, nextgoto, backstep;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,6 +18,7 @@ public class Random extends AppCompatActivity {
 
         random = (ImageButton) findViewById(R.id.randombtn);
         nextgoto = (ImageButton) findViewById(R.id.nextstep);
+        backstep = (ImageButton) findViewById(R.id.backbtn);
 
         random.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,6 +34,13 @@ public class Random extends AppCompatActivity {
                 startActivity(nextst);
             }
         });
-    }
 
+        backstep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent backst = new Intent(Random.this,MainActivity.class);
+                startActivity(backst);
+            }
+        });
+    }
 }
