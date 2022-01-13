@@ -11,12 +11,17 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.BaseAdapter;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
 public class Menufood extends AppCompatActivity {
+
     Button b6,b7,b8,b9,b10,b11,b12;
+
+    ImageButton backstep;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -82,7 +87,17 @@ public class Menufood extends AppCompatActivity {
                 startActivity(b23);
             }
         });
+
+        backstep = (ImageButton) findViewById(R.id.backbtn);
+
+        backstep.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent backst = new Intent(Menufood.this,MainActivity.class);
+                startActivity(backst);
+            }
+        });
     }
-    }
+}
 
 
