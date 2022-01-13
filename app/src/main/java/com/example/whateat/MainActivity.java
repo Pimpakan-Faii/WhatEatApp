@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         menu = (ImageButton) findViewById(R.id.menufood);
-        a1 = (ImageButton) findViewById(R.id.menufood);
+        a1 = (ImageButton) findViewById(R.id.ran);
 
         menu.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         a1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent b = new Intent(MainActivity.this,Menufood.class);
+                Intent b = new Intent(MainActivity.this,Random.class);
                 startActivity(b);
             }
         });
