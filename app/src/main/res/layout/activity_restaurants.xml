@@ -22,87 +22,87 @@
     <Button
         android:id="@+id/button20"
 
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/chonburi"
         android:text="ร้านแอนบะหมี่หน้ามอ"
-        android:textSize="20dp"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.29" />
+        app:layout_constraintVertical_bias="0.281" />
 
     <Button
         android:id="@+id/button"
 
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/chonburi"
         android:text="ร้านป๊า ม๊าอาหารตามสั่ง"
-        android:textSize="20dp"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.417" />
 
     <Button
         android:id="@+id/button2"
 
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/chonburi"
         android:text="ร้านอาหารบ้านคุณลุง"
-        android:textSize="20dp"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.591" />
+        app:layout_constraintVertical_bias="0.558" />
 
     <Button
         android:id="@+id/button3"
 
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/chonburi"
         android:text="ร้านอาหารแม่ดอล่า"
-        android:textSize="20dp"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.748" />
+        app:layout_constraintVertical_bias="0.703" />
 
     <Button
         android:id="@+id/button11"
 
-        android:layout_width="fill_parent"
+        android:layout_width="350dp"
         android:layout_height="70dp"
         android:backgroundTint="@color/white"
         android:fontFamily="@font/chonburi"
         android:text="ร้านแอนบะหมี่หน้ามอ"
-        android:textSize="20dp"
         android:textColor="@color/black"
+        android:textSize="20dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.895" />
+        app:layout_constraintVertical_bias="0.847" />
 
     <TextView
         android:id="@+id/textView11"
